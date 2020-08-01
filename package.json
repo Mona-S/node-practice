@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Mona-S/node-practice/issues"
   },
-  "homepage": "https://github.com/Mona-S/node-practice#readme"
+  "homepage": "https://github.com/Mona-S/node-practice#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
