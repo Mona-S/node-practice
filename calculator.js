@@ -22,6 +22,11 @@ app.get("/bmicalculator", function(req,res){
     res.sendFile(__dirname + "/bmiCalculator.html");
 })
 
+app.post("/bmiCalculator", function(req,res){
+    var weight = req.body.weight;
+    var height = req.body.height;
+})
+
 app.listen(3000, function(){
     console.log("Server has started");
 });
